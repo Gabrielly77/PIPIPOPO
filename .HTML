@@ -1,0 +1,42 @@
+<body>
+  <div class="container">
+    <header class="topo">
+      <h1 class="page-title">
+        MORTAL KOMBAT!! FATALITY??? TENTE A SORTE!!!
+      </h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt=""><br>
+    </header>
+    <main class="p1">
+      <button class="btn-desafios" id="btn-desafios"></button>
+      <label for="btn-desafios" class="btn-desafios--label">Press Start!! Você terá três chances para tentar derrotar o Scorpion.</label>
+    </main>
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </div>
+
+  <div id='modal' class='modal-container modal'>
+    <div class="modal__conteudo">
+      <button class='modal--fechar'>x</button>
+
+      <div class="decoracaoes"></div>
+
+      <section class="desafios">
+        <h2>Tente descobrir o valor ideal para vencer o Scorpion! Má sorte pra você! Hehehe</h1>
+          <p>Cuidado você só terá três chances! Boa sorte!</p>
+
+          <div class="form">
+            <label for="campoGolpe">Golpe: </label><input type="number" id="campoGolpe" class="campoGolpe">
+            <input type="submit" value="Enviar golpe" class="envioGolpe">
+          </div>
+
+          <div class="resultadoParas">
+            <p class="golpes"></p>
+            <p class="ultimoResultado"></p>
+            <p class="baixoOuAlto"></p>
+          </div>
+      </section>
+    </div>
+  </div>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
